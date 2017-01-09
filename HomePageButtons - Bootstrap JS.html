@@ -1,111 +1,14 @@
-
 <html>
 
 <head>
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
 <!-- CSS -->
 <style>
-
 body {
   background-color: bisque;
-}
-
-.row1 {
-  padding: 1%;
-}
-
-#btn-google {
-  color: red;
-  background-color: white;
-  border-style: solid;
-  border-color: red;
-  width: 140px;
-  height: 70px;
-  font-size: 200%;
-}
-
-#btn-facebook {
-  color: white;
-  background-color: blue;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 180%;
-}
-
-#btn-Youtube {
-  color: white;
-  background-color: red;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 200%;
-}
-
-#btn-Twitter {
-  color: white;
-  background-color: royalblue;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 200%;
-}
-
-#btn-Pinterest {
-  color: white;
-  background-color: darkred;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 180%;
-}
-
-#btn-News {
-  color: white;
-  background-color: gold;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 200%;
-}
-
-#btn-Translate {
-  color: white;
-  background-color: green;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 180%;
-}
-
-#btn-Gmail {
-  color: white;
-  background-color: grey;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 200%;
-}
-
-#btn-Weather {
-  color: white;
-  background-color: indigo;
-  border-style: solid;
-  border-color: white;
-  width: 140px;
-  height: 70px;
-  font-size: 200%;
 }
 
 .button {
@@ -156,66 +59,41 @@ body {
 #meteo {
   background-color: indigo;
 }
-
 </style>
 
 </head>
+
 
 <!-- BODY -->
 <body>
 
 <div class="div text-center">
-  <div class="row row1">
 
-    <div class="col-md-3">
-      <button class="btn btn-lg" id="btn-google" onclick="runGoogle()">Google</button>
-    </div>
-    
-    <div class="col-md-3">
-      <button class="btn btn-lg" id="btn-facebook" onclick="runFacebook()">Facebook</button>   
-    </div>
-    
-    <div class="col-md-3">
-      <button class="btn btn-lg" id="btn-Youtube" onclick="runYoutube()">YouTube</button>
-    </div>
-    
-    <div class="col-md-3">
-      <button class="btn btn-lg" id="btn-Twitter" onclick="runTwitter()">Twitter</button>
-    </div>
-    
-  </div>
+     
+<a class="button" id="google" target=_blank href="https://www.google.gr" >Google</a> 
   
-    <div class="row row1">
+   
+<a class="button" id="face" target="_blank" href="https://www.facebook.com">Facebook</a>
     
-      <div class="col-md-3">
-        <button class="btn btn-lg" id="btn-Pinterest" onclick="runPinterest()">Pinterest</button>
-      </div>
-        
-        <div class="col-md-3">
-          <button class="btn btn-lg" id="btn-News" onclick="runNews()">News</button>
-      </div>
-        
-      <div class="col-md-3">
-        <button class="btn btn-lg" id="btn-Translate" onclick="runTranslate()">Translate</button>
-      </div>    
   
-      <div class="col-md-3">
-        <button class="btn btn-lg" id="btn-Gmail" onclick="runGmail()">G-mail</button>
-      </div>
-  </div>
+  <a class="button" id="utube" target="_blank" href="https://www.youtube.com">YouTube</a>
+   
   
-    <div class="row row1">
+  <a class="button" id="twi" target="_blank" href="https://www.twitter.com">Twitter</a>
+  
+  </br>
     
-      <div class="col-md-3">
-        <button class="btn btn-lg" id="btn-Weather" onclick="runWeather()">Weather</button>
-      </div>
-        
-  </div>
-  
-  
-  
-  </div>
+  <a class="button" id="pin" target="_blank" href="https://www.pinterest.com">Pinterest</a> 
+  <a class="button" id="news" target="_blank" href="https://news.google.gr/nwshp?hl=el&tab=wn&ei=efVLWPKoBoKsswHX7o-IAw&ved=0EKkuCAYoBQ">Ειδήσεις</a> 
+   <a class="button" id="trans" target="_blank" href="https://translate.google.gr/?hl=el&tab=wT">Μεταφραστής</a>  
+   <a class="button" id="gmail" target="_blank" href="https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=el#identifier">G-Mail</a> 
 
-</body>
+</br>
+  
+  <a class="button" id="meteo" target="_blank" href="http://www.meteo.gr/meteoplus/cf.cfm?city_id=375">Καιρός</a>
 
-</html>
+  </div>
+  
+  </body>
+  
+  </html>
