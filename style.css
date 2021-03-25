@@ -1,0 +1,159 @@
+body {
+    background-color: bisque;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+#btn-google {
+    color: red;
+    background-color: white;
+    border-style: solid;
+    border-color: red;
+    width: 200px;
+    height: 70px;
+    font-size: 180%;
+}
+
+#btn-facebook {
+    color: white;
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 180%;
+}
+
+#btn-Youtube {
+    color: white;
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 200%;
+}
+
+#btn-Twitter {
+    color: white;
+    background-color: deepskyblue;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 200%;
+}
+
+#btn-Pinterest {
+    color: white;
+    background-color: darkred;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 180%;
+}
+
+#btn-News {
+    color: white;
+    background-color: darkgoldenrod;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 200%;
+}
+
+#btn-Translate {
+    color: white;
+    background-color: green;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 200%;
+}
+
+#btn-Gmail {
+    color: black;
+    background-color: grey;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 200%;
+}
+
+#btn-Weather {
+    color: white;
+    background-color: indigo;
+    border-style: solid;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 200%;
+}
+
+.button {
+    background-color: darkred;
+    border: solid;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.div {
+    margin: 50px 200px;
+    border-color: black;
+}
+
+#face {
+    background-color: blue;
+}
+#google {
+    border: solid;
+    border-color: red;
+    background-color: white;
+    color: red;
+    font-size: 40px;
+}
+#utube {
+    background-color: red;
+}
+#twi {
+    background-color: Royalblue;
+}
+#trans {
+    background-color: green;
+}
+#pin {
+    background-color: darkred;
+}
+#news {
+    background-color: gold;
+}
+#gmail {
+    background-color: grey;
+}
+#meteo {
+    background-color: indigo;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .row {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .row {
+        margin-bottom: 40px;
+    }
+}
