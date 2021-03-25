@@ -36,5 +36,5 @@ function runGmail() {
 }
 
 function runWeather() {
-    window.open("http://www.meteo.gr/meteoplus/cf.cfm?city_id=375", "_blank");
+    window.open("http://www.meteo.gr/", "_blank");
 }
