@@ -17,3 +17,7 @@ Buttons List:
 -   Google Translate
 -   Gmail
 -   Weather
+
+# Preview
+
+![alt text](/images/preview1.png)
