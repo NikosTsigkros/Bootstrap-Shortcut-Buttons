@@ -10,7 +10,7 @@ Made using <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and
 
 ### <u>Try it:</u>
 
-Click <a href="https://nikostsigkros.github.io/Buttons/" target="_blank">here</a> to see a live demo.
+Click <a href="https://nikostsigkros.github.io/Bootstrap-Shortcut-Buttons/" target="_blank">here</a> to see a live demo.
 
 #
 
